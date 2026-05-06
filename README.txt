@@ -26,3 +26,5 @@ O sistema usa  if  para verificar se cada botão está pressionado:
 if (bot1 ==  alto) =  executa ações do LED 11
 if (bot2 ==  alto) =  executa ações do LED 10
 if (bot3 ==  alto) =  executa ações do LED 9
+
+![210136](
