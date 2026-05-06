@@ -27,4 +27,4 @@ if (bot1 ==  alto) =  executa ações do LED 11
 if (bot2 ==  alto) =  executa ações do LED 10
 if (bot3 ==  alto) =  executa ações do LED 9
 
-<img scr"210136.png" width="50%">
+<img scr "210136.png" width="50%" >
