@@ -27,4 +27,4 @@ if (bot1 ==  alto) =  executa ações do LED 11
 if (bot2 ==  alto) =  executa ações do LED 10
 if (bot3 ==  alto) =  executa ações do LED 9
 
-![210136](Captura de tela 2026-05-05 210136.png)
+![210136](210136)
