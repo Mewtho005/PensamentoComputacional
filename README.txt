@@ -1,14 +1,28 @@
-Identificar  - Enunciar o problema
-Analisar- Descrever todas as partes constituintes do problema
-Encontrar uma solução - Ordenação lógica das premissas
-Implementar a solução - Avaliação conclusiva
-Monitorar, analisar, e avaliar a solução - Conclusão
+1.Identifique as entradas e saídas do sistema:
+Entradas:	
+3 botões = sinais digitais 
+1 potenciômetro = sinal analógico 
+Saídas:
+LEDs = acionados pelo Arduino conforme a lógica
 
-Você foi contratado pela prefeitura da cidade para ajudar a melhorar a segurança em uma rua próxima a uma escola. Nessa rua existe uma faixa de pedestres, mas muitas vezes os carros passam ao mesmo tempo em que as pessoas tentam atravessar, o que pode causar situações perigosas.
-Para resolver esse problema, a prefeitura decidiu instalar um sistema de sinalização simples utilizando luzes. O sinal dos carros possui três luzes: verde, amarelo e vermelho. 
-O sinal dos pedestres possui duas luzes: vermelho e verde.
-A prefeitura pediu que você desenvolva uma simulação desse sistema utilizando Arduino no Tinkercad, controlando as luzes por meio de LEDs.
+2.Apresente todos os componentes do sistema e para que eles servem
+Arduino Uno: controla todo o sistema (lê entradas e define saídas)
+Botões (3x): enviam comandos digitais (pressionado = ALTO)
+Potenciômetro: gera valor analógico para controlar intensidade dos LEDs
+Resistores: protegem o circuito e estabilizam sinais
+LEDs (pinos 9, 10, 11): indicam o estado do sistema
+Protoboard + jumpers: montagem do circuito
 
-Eu liguei os 5 LEDs separadamente, separando os 2 entre sinalizações, dos pedestres e dos veiculos.
-Quando o semaforo dos veiculos chega ao vermelho, o dos pedestres fica verde e fica até o amarelo do dos veiculos, em seguida ele tem um atraso de 2 segundos e troca para o vermelho e consequentemente o dos veiculos fica verde, logo depois ele volta pro amarelo e reinicia o ciclo quando o amarelo se apaga.
-não sei mais o que colocar, obrigado.
+3.Apresente as regras de funcionamento a serem implementadas
+Se botão 1 for pressionado = acende vermelho com intensidade controlada pelo
+potenciômetro.
+Se botão 2 for pressionado = acende a cor combinada, amarelo.
+Se botão 3 for pressionado = acende azul com intensidade controlada
+Se nenhum botão for pressionado = LED fica desligado
+O potenciômetro sempre controla o brilho da cor ativa
+
+4.Explique como você utilizaria estruturas if para controlar o sistema
+O sistema usa  if  para verificar se cada botão está pressionado:
+if (bot1 ==  alto) =  executa ações do LED 11
+if (bot2 ==  alto) =  executa ações do LED 10
+if (bot3 ==  alto) =  executa ações do LED 9
