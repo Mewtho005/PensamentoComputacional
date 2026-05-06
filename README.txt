@@ -27,4 +27,4 @@ if (bot1 ==  alto) =  executa ações do LED 11
 if (bot2 ==  alto) =  executa ações do LED 10
 if (bot3 ==  alto) =  executa ações do LED 9
 
-<img scr"210136.png" widht="50%">
+<img scr"https://github.com/Mewtho005/PensamentoComputacional/blob/main/210136.png" widht="50%">
